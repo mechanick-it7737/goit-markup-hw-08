@@ -1,0 +1,45 @@
+.task__container {
+    display: flex;
+ }
+
+.task__item {
+    max-width: 270px;
+    margin-right: 30px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+ .task-wrap__icon {
+    height: 120px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #F5F4FA;
+
+    border-radius: 4px;
+}
+
+ .tasks__subtitle {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.tasks__text {
+    margin-bottom: 30px;
+
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+    color: $sacondary-text-color;
+}

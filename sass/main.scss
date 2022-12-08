@@ -1,0 +1,56 @@
+// Normalize
+
+@import "./base/_normalize.scss";
+
+// Variables
+
+@import "./utils/variables";
+
+// Reset
+
+@import "./utils/reset";
+
+// Repeat class
+
+@import "./utils/repeat-classes";
+
+// Header
+
+@import "./components/header";
+
+// Hero
+
+@import "./components/studio/hero";
+
+// Tasks
+
+@import "./components/studio/tasks";
+
+// Studio
+
+@import "./components/studio/studio";
+
+// Team
+
+@import "./components/studio/team";
+
+// Clients
+
+@import "./components/studio/clients";
+
+// Footer
+
+@import "./components/footer";
+
+// Modal
+
+@import "./components/_modal.scss";
+
+// Portfolio 
+// List button
+
+@import "./components/portfolio/button-list";
+
+// Cards
+
+@import "./components/portfolio/cards-list";
