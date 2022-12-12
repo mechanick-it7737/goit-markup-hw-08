@@ -1,0 +1,27 @@
+.logo {
+  font-family: $secondary-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+
+  color: $accent-color;
+
+  cursor: pointer;
+
+   @media screen and (max-width:$desctop) {
+    font-size: 24px;
+  }
+}
+
+.logo__decor {
+  color: #000000;
+  @media screen and (max-width:$desctop) {
+    font-size: 24px;
+  }
+}
+
+.logo__decor--white {
+  color: $primary-white-color;
+}
+

@@ -1,15 +1,21 @@
-// Fonts 
+// Fonts
 
-$main-font: 'Roboto', sans-serif;
-$secondary-font: 'Raleway', sans-serif;
+$main-font: "Roboto", sans-serif;
+$secondary-font: "Raleway", sans-serif;
 
 // Color
 
 $primary-text-color: #212121;
 $sacondary-text-color: #757575;
-$accent-color: #2196F3;
+$accent-color: #2196f3;
 $primary-white-color: #ffffff;
 
 // Animation
 
 $animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+// Adaptiv
+
+$phone: 479.98px;
+$tablet: 767.98px;
+$desctop: 1199.98px;

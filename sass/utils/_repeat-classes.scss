@@ -1,36 +1,75 @@
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-    margin: 0 auto;
+.visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+
+  @media screen and (max-width: $desctop) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .container {
-    width: 1200px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+  max-width: 350px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  background-color: aqua;
+
+  @media screen and (min-width: $phone) {
+    max-width: 767px;
+  }
+
+  @media screen and (min-width: $tablet) {
+    max-width: 1199px;
+  }
+
+   @media screen and (max-width: $desctop) {
+    max-width: 1200px;
+  }
 }
 
 .title {
-    margin-top: 0;
-    margin-bottom: 50px;
+  margin-top: 0;
+  margin-bottom: 50px;
 
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  @media screen and (max-width: $desctop) {
+    font-size: 28px;
+  }
 }
 
-.footer__titel {
-    display: block;
-    margin-bottom: 20px;
+.footer__title {
+  display: block;
+  margin-bottom: 20px;
 
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
-    color: $primary-white-color;
+  color: $primary-white-color;
 }
+
