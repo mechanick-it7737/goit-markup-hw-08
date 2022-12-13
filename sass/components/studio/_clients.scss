@@ -1,16 +1,20 @@
 .clients-icon__list {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  @media screen and (min-width: $desctop) {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 }
 
 .clients-icon__item {
-  margin-right: 30px;
-
-  width: 170px;
   height: 92px;
+  width: calc((100% - 30px) / 2);
 
-  &:last-child {
-    margin-right: 0;
+  @media screen and (min-width: $tablet) {
+    width: calc((100% - 60px) / 3);
   }
 }
 

@@ -14,40 +14,33 @@
 }
 
 section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   margin: 0 auto;
 
-  @media screen and (max-width: $desctop) {
-    padding-top: 60px;
-    padding-bottom: 60px;
+  @media screen and (min-width: $desctop) {
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
 .container {
-  max-width: 350px;
+  max-width: 480px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
 
-  background-color: aqua;
-
-  @media screen and (min-width: $phone) {
-    max-width: 767px;
-  }
-
   @media screen and (min-width: $tablet) {
-    max-width: 1199px;
+    max-width: 768px;
   }
 
-   @media screen and (max-width: $desctop) {
+  @media screen and (min-width: $desctop) {
     max-width: 1200px;
   }
 }
 
 .title {
-  margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
   font-weight: 700;
   font-size: 36px;
@@ -55,8 +48,8 @@ section {
   text-align: center;
   letter-spacing: 0.03em;
 
-  @media screen and (max-width: $desctop) {
-    font-size: 28px;
+  @media screen and (min-width: $desctop) {
+    margin-bottom: 50px;
   }
 }
 
